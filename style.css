@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 160%;
+    color: #5F2EEA;
+    padding: 34px 0 0 50px;
+}
+
+.burger {
+    width: 40px;
+    height: 4px;
+    background: #5F2EEA;
+    position: absolute;
+    top: 60px;
+    left: 1200px;
+
+}
+.burgers {
+    width: 40px;
+    height: 4px;
+    background: #5F2EEA;
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+}
+.burgerss {
+    width: 40px;
+    height: 4px;
+    background: #5F2EEA;
+    position: absolute;
+    top: 70px;
+    left: 1200px;
+} */
+/* 
+.burger::before {
+    content: '';
+    width: 40px;
+    height: 4px;
+    background: #5F2EEA;
+    position: fixed;
+}
+
+.burger::after {
+    content: '';
+    width: 40px;
+    height: 4px;
+    background: #5F2EEA;
+    position: fixed;
+    top: 50px;
+} */
+/* 
+.line {
+    width: 1150px;
+    border: 1px solid #c7c7cc;
+    margin-top: 40px;
+    top: 55px;
+} */
+
+.content h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #e0d6fc;
+    margin: 83px 0 36px ;
+}
+
+.content__top h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 104%;
+    letter-spacing: 0.02em;
+    width: 550px;
+    font-family: "Poppins",sans-serif;
+}
+
+.content__top p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    color: #000;
+    width: 360px;
+}
+
+.content__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__card {
+    border-radius: 20px;
+    width: 369px;
+    height: 522px;
+    border: 2px solid #E7DFFF;
+
+}
+
+.content__card h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 189%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #000;
+}
+
+.content__card img {
+    padding: 53px 33px;
+}
+
+.content__card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #000;
+    width: 300px;
+    padding: 7px 0 0 50px;
+
+}
+
+.content__card button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #5F2EEA;
+    padding: 20px 80px;
+    border-radius: 40px;
+    border: 1px solid #5F2EEA;
+    background: white;
+    margin: 32px 0 0 55px;
+
+}
+
+.content__box{
+    display: flex;
+    gap: 35px;
+    margin-top: 80px;
+}
